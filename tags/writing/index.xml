@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Writing on toasters rocks</title>
-    <link>http://toasters.rocks/tags/writing/</link>
-    <description>Recent content in Writing on toasters rocks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2020 J.P. Savard</copyright>
-    <lastBuildDate>Sun, 15 Dec 2019 00:55:25 +0000</lastBuildDate><atom:link href="http://toasters.rocks/tags/writing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Horse Life 98</title>
-      <link>http://toasters.rocks/horse-life-98/</link>
-      <pubDate>Sun, 15 Dec 2019 00:55:25 +0000</pubDate>
-      
-      <guid>http://toasters.rocks/horse-life-98/</guid>
-      <description>Been a while I wanted to make a webcomic, but I never got around at drawing one, and if I do I&amp;rsquo;m not that good at drawing, so&amp;hellip;
-I recently started messing up with a Windows 98 VM (for various reasons, including a future redesign of this website), I re-discovered Microsoft Comic Chat, I decided to import my Pony Town avatars in it, and the rest is history. It&amp;rsquo;s simple to make, it doesn&amp;rsquo;t take too much of my attention span and it looks good, so yeah, winning formula.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Writing on toasters rocks</title><link>http://toasters.rocks/tags/writing/</link><description>Recent content in Writing on toasters rocks</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2020 J.P. Savard</copyright><lastBuildDate>Sun, 15 Dec 2019 00:55:25 +0000</lastBuildDate><atom:link href="http://toasters.rocks/tags/writing/index.xml" rel="self" type="application/rss+xml"/><item><title>Horse Life 98</title><link>http://toasters.rocks/horse-life-98/</link><pubDate>Sun, 15 Dec 2019 00:55:25 +0000</pubDate><guid>http://toasters.rocks/horse-life-98/</guid><description>Been a while I wanted to make a webcomic, but I never got around at drawing one, and if I do I&amp;rsquo;m not that good at drawing, so&amp;hellip;
+I recently started messing up with a Windows 98 VM (for various reasons, including a future redesign of this website), I re-discovered Microsoft Comic Chat, I decided to import my Pony Town avatars in it, and the rest is history. It&amp;rsquo;s simple to make, it doesn&amp;rsquo;t take too much of my attention span and it looks good, so yeah, winning formula.</description></item></channel></rss>

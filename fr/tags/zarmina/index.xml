@@ -1,31 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Zarmina on toasters rocks</title>
-    <link>http://toasters.rocks/fr/tags/zarmina/</link>
-    <description>Recent content in Zarmina on toasters rocks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2020 J.P. Savard</copyright>
-    <lastBuildDate>Sat, 23 Nov 2019 06:36:00 +0000</lastBuildDate><atom:link href="http://toasters.rocks/fr/tags/zarmina/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Nouvelle bande-annonce</title>
-      <link>http://toasters.rocks/fr/nouvelle-bande-annonce/</link>
-      <pubDate>Sat, 23 Nov 2019 06:36:00 +0000</pubDate>
-      
-      <guid>http://toasters.rocks/fr/nouvelle-bande-annonce/</guid>
-      <description>Cet article a originellement été publié sur Itch.io.
-  Nouvelle bande-annonce pour le projet, c&amp;rsquo;est pas le jeu complet mais j&amp;rsquo;espère que vous aimez :) Entièrement réalisé avec Ren&amp;rsquo;Py parce que de un, ça va servir comme intro au jeu, et de deux, y&amp;rsquo;avait aucun logiciel de montage vidéo qui marchait convenablement sur mon ordi&amp;hellip; Vous pouvez le voir directement sur la page du jeu, sinon si ça bug je l&amp;rsquo;ai enregistré sur YouTube.</description>
-    </item>
-    
-    <item>
-      <title>Zarmina 3.0: réécriture (encore).</title>
-      <link>http://toasters.rocks/fr/zarmina-3-0-reecriture/</link>
-      <pubDate>Mon, 28 Oct 2019 22:34:00 +0000</pubDate>
-      
-      <guid>http://toasters.rocks/fr/zarmina-3-0-reecriture/</guid>
-      <description>Cet article a originellement été publié surPatreon.
-Et c&amp;rsquo;est à ce point que j&amp;rsquo;ai perdu ma motivation. Encore une fois. Je n&amp;rsquo;ai rien écrit depuis l&amp;rsquo;hiver passé, parce que, vous voyez, je me suis rendu compte que ça n&amp;rsquo;allait nulle part sous sa forme actuelle. Syndrome de la page blanche. Petite panique. C&amp;rsquo;est pas la vision du projet que j&amp;rsquo;avais. Je ne peux pas faire ça tout seul, pas de financement.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zarmina on toasters rocks</title><link>http://toasters.rocks/fr/tags/zarmina/</link><description>Recent content in Zarmina on toasters rocks</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2020 J.P. Savard</copyright><lastBuildDate>Sat, 23 Nov 2019 06:36:00 +0000</lastBuildDate><atom:link href="http://toasters.rocks/fr/tags/zarmina/index.xml" rel="self" type="application/rss+xml"/><item><title>Nouvelle bande-annonce</title><link>http://toasters.rocks/fr/nouvelle-bande-annonce/</link><pubDate>Sat, 23 Nov 2019 06:36:00 +0000</pubDate><guid>http://toasters.rocks/fr/nouvelle-bande-annonce/</guid><description>Cet article a originellement été publié sur Itch.io.
+Nouvelle bande-annonce pour le projet, c&amp;rsquo;est pas le jeu complet mais j&amp;rsquo;espère que vous aimez :) Entièrement réalisé avec Ren&amp;rsquo;Py parce que de un, ça va servir comme intro au jeu, et de deux, y&amp;rsquo;avait aucun logiciel de montage vidéo qui marchait convenablement sur mon ordi&amp;hellip; Vous pouvez le voir directement sur la page du jeu, sinon si ça bug je l&amp;rsquo;ai enregistré sur YouTube.</description></item><item><title>Zarmina 3.0: réécriture (encore).</title><link>http://toasters.rocks/fr/zarmina-3-0-reecriture/</link><pubDate>Mon, 28 Oct 2019 22:34:00 +0000</pubDate><guid>http://toasters.rocks/fr/zarmina-3-0-reecriture/</guid><description>Cet article a originellement été publié surPatreon.
+Et c&amp;rsquo;est à ce point que j&amp;rsquo;ai perdu ma motivation. Encore une fois. Je n&amp;rsquo;ai rien écrit depuis l&amp;rsquo;hiver passé, parce que, vous voyez, je me suis rendu compte que ça n&amp;rsquo;allait nulle part sous sa forme actuelle. Syndrome de la page blanche. Petite panique. C&amp;rsquo;est pas la vision du projet que j&amp;rsquo;avais. Je ne peux pas faire ça tout seul, pas de financement.</description></item></channel></rss>

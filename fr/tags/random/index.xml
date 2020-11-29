@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Random on toasters rocks</title>
-    <link>http://toasters.rocks/fr/tags/random/</link>
-    <description>Recent content in Random on toasters rocks</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2020 J.P. Savard</copyright>
-    <lastBuildDate>Wed, 15 Jan 2020 04:43:03 +0000</lastBuildDate><atom:link href="http://toasters.rocks/fr/tags/random/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Yuki</title>
-      <link>http://toasters.rocks/fr/yuki/</link>
-      <pubDate>Wed, 15 Jan 2020 04:43:03 +0000</pubDate>
-      
-      <guid>http://toasters.rocks/fr/yuki/</guid>
-      <description>Yuki (雪). Ça veut dire neige en japonais.
-C&amp;rsquo;est le soir, il neige à gros flocons, il vente pas trop, pas trop froid, c&amp;rsquo;est poudreux dans les petites rues du quartier Saint-Sauveur. Le déneigeur a pas encore eu le temps de passer, faut presque passer en raquette pour espérer avancer. C&amp;rsquo;est pas super sécuritaire sur les routes, mais il y a quand même quelque chose de magique. La neige qui réfléchit sous les lampadaires.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random on toasters rocks</title><link>http://toasters.rocks/fr/tags/random/</link><description>Recent content in Random on toasters rocks</description><generator>Hugo -- gohugo.io</generator><copyright>Copyright © 2020 J.P. Savard</copyright><lastBuildDate>Wed, 15 Jan 2020 04:43:03 +0000</lastBuildDate><atom:link href="http://toasters.rocks/fr/tags/random/index.xml" rel="self" type="application/rss+xml"/><item><title>Yuki</title><link>http://toasters.rocks/fr/yuki/</link><pubDate>Wed, 15 Jan 2020 04:43:03 +0000</pubDate><guid>http://toasters.rocks/fr/yuki/</guid><description>Yuki (雪). Ça veut dire neige en japonais.
+C&amp;rsquo;est le soir, il neige à gros flocons, il vente pas trop, pas trop froid, c&amp;rsquo;est poudreux dans les petites rues du quartier Saint-Sauveur. Le déneigeur a pas encore eu le temps de passer, faut presque passer en raquette pour espérer avancer. C&amp;rsquo;est pas super sécuritaire sur les routes, mais il y a quand même quelque chose de magique. La neige qui réfléchit sous les lampadaires.</description></item></channel></rss>
