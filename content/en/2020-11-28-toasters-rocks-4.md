@@ -7,7 +7,6 @@ lastmod: 2020-11-28T21:15:50-05:00
 tags: 
 - Meta
 description: Brand new blog, again.
-draft: true
 images:
 - /images/2020/11/bg.png
 ---
