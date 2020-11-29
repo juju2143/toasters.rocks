@@ -1,0 +1,200 @@
+baseURL = "http://toasters.rocks/"
+title = "toasters rocks"
+theme = "toastersrocks"
+disqusShortname = "juju2143"
+defaultContentLanguage = "en"
+copyright = "Copyright © 2020 J.P. Savard"
+paginate = 10
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    contentDir = "content/fr"
+
+[[languages.en.menu.main]]
+  name = "Home"
+  pre = "fas fa-home"
+  url = "/"
+  weight = 1
+[[languages.en.menu.main]]
+  name = "About"
+  pre = "fas fa-user"
+  url = "http://juju2143.ca/"
+  weight = 2
+[[languages.en.menu.main]]
+  name = "Français"
+  pre = "fas fa-globe"
+  url = "/fr/"
+  weight = 3
+[[languages.en.menu.main]]
+  name = "Comics"
+  pre = "far fa-comment"
+  url = "https://yukiis.moe/"
+  weight = 4
+[[languages.en.menu.main]]
+  name = "Forums"
+  pre = "far fa-folder-open"
+  url = "https://codewalr.us/"
+  weight = 5
+
+[[languages.fr.menu.main]]
+  name = "Accueil"
+  pre = "fas fa-home"
+  url = "/fr/"
+  weight = 1
+[[languages.fr.menu.main]]
+  name = "À propos"
+  pre = "fas fa-user"
+  url = "http://juju2143.ca/"
+  weight = 2
+[[languages.fr.menu.main]]
+  name = "English"
+  pre = "fas fa-globe"
+  url = "/"
+  weight = 3
+[[languages.fr.menu.main]]
+  name = "Comics"
+  pre = "far fa-comment"
+  url = "https://yukiis.moe/"
+  weight = 4
+[[languages.fr.menu.main]]
+  name = "Forums"
+  pre = "far fa-folder-open"
+  url = "https://codewalr.us/"
+  weight = 5
+
+[[languages.en.menu.social]]
+  name = "Twitter"
+  pre = "fab fa-twitter"
+  url = "https://twitter.com/juju2143"
+  post = "#4da7de"
+  weight = 1
+[[languages.en.menu.social]]
+  name = "Discord"
+  pre = "fab fa-discord"
+  url = "https://discord.gg/cuZcfcF"
+  post = "#7289da"
+  weight = 2
+[[languages.en.menu.social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/juju2143"
+  post = "#221e1b"
+  weight = 3
+[[languages.en.menu.social]]
+  name = "Patreon"
+  pre = "fab fa-patreon"
+  url = "https://patreon.com/juju2143"
+  post = "#F96854"
+  weight = 4
+[[languages.en.menu.social]]
+  name = "YouTube"
+  pre = "fab fa-youtube"
+  url = "https://youtube.com/user/julosoft"
+  post = "#e02a20"
+  weight = 5
+[[languages.en.menu.social]]
+  name = "YouTube 2"
+  pre = "fab fa-youtube"
+  url = "https://youtube.com/c/juju2143"
+  post = "#e02a20"
+  weight = 6
+[[languages.en.menu.social]]
+  name = "Twitch"
+  pre = "fab fa-twitch"
+  url = "https://twitch.tv/juju2143"
+  post = "#6441a5"
+  weight = 7
+[[languages.en.menu.social]]
+  name = "Instagram"
+  pre = "fab fa-instagram"
+  url = "https://instagram.com/j.p.savard"
+  post = "#d6249f"
+  weight = 8
+[[languages.en.menu.social]]
+  name = "DeviantArt"
+  pre = "fab fa-deviantart"
+  url = "https://deviantart.com/juju2143"
+  post = "#c5d200"
+  weight = 9
+[[languages.en.menu.social]]
+  name = "SoundCloud"
+  pre = "fab fa-soundcloud"
+  url = "https://soundcloud.com/juju2143"
+  post = "#fe3801"
+  weight = 10
+
+[[languages.fr.menu.social]]
+  name = "Twitter"
+  pre = "fab fa-twitter"
+  url = "https://twitter.com/juju2143"
+  post = "#4da7de"
+  weight = 1
+[[languages.fr.menu.social]]
+  name = "Discord"
+  pre = "fab fa-discord"
+  url = "https://discord.gg/cuZcfcF"
+  post = "#7289da"
+  weight = 2
+[[languages.fr.menu.social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/juju2143"
+  post = "#221e1b"
+  weight = 3
+[[languages.fr.menu.social]]
+  name = "Patreon"
+  pre = "fab fa-patreon"
+  url = "https://patreon.com/juju2143"
+  post = "#F96854"
+  weight = 4
+[[languages.fr.menu.social]]
+  name = "YouTube"
+  pre = "fab fa-youtube"
+  url = "https://youtube.com/user/julosoft"
+  post = "#e02a20"
+  weight = 5
+[[languages.fr.menu.social]]
+  name = "YouTube 2"
+  pre = "fab fa-youtube"
+  url = "https://youtube.com/c/juju2143"
+  post = "#e02a20"
+  weight = 6
+[[languages.fr.menu.social]]
+  name = "Twitch"
+  pre = "fab fa-twitch"
+  url = "https://twitch.tv/juju2143"
+  post = "#6441a5"
+  weight = 7
+[[languages.fr.menu.social]]
+  name = "Instagram"
+  pre = "fab fa-instagram"
+  url = "https://instagram.com/j.p.savard"
+  post = "#d6249f"
+  weight = 8
+[[languages.en.menu.social]]
+  name = "DeviantArt"
+  pre = "fab fa-deviantart"
+  url = "https://deviantart.com/juju2143"
+  post = "#c5d200"
+  weight = 9
+[[languages.en.menu.social]]
+  name = "SoundCloud"
+  pre = "fab fa-soundcloud"
+  url = "https://soundcloud.com/juju2143"
+  post = "#fe3801"
+  weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false

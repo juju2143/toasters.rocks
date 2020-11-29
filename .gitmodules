@@ -1,0 +1,3 @@
+[submodule "themes/toastersrocks"]
+	path = themes/toastersrocks
+	url = https://github.com/juju2143/hugo-theme-toastersrocks.git
