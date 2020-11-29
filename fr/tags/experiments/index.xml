@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiments on toasters rocks</title>
+    <link>http://toasters.rocks/fr/tags/experiments/</link>
+    <description>Recent content in Experiments on toasters rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020 J.P. Savard</copyright>
+    <lastBuildDate>Tue, 24 Dec 2019 04:05:50 +0000</lastBuildDate><atom:link href="http://toasters.rocks/fr/tags/experiments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathieu Bock-Côté Simulator 2020</title>
+      <link>http://toasters.rocks/fr/mathieu-bot-cote/</link>
+      <pubDate>Tue, 24 Dec 2019 04:05:50 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/fr/mathieu-bot-cote/</guid>
+      <description>Mathieu Bock-Côté est l&amp;rsquo;un de ces chroniqueurs reconnu pour ses pavés qu&amp;rsquo;on retrouve presque quotidiennement dans le Journal de Montréal, donc je me suis dit qu&amp;rsquo;il serait un sujet parfait pour entraîner une intelligence artificielle sur ses textes. Donc si vous avez toujours rêvé de lui poser une question, ou lui suggérer un sujet, vous pouvez le faire ci-dessous avec un Bock-Côté virtuel! Ou sinon vous pouvez juste cliquer sur le bouton et il va quand même émettre un bout de chronique.</description>
+    </item>
+    
+  </channel>
+</rss>

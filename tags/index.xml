@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on toasters rocks</title>
+    <link>http://toasters.rocks/tags/</link>
+    <description>Recent content in Tags on toasters rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020 J.P. Savard</copyright>
+    <lastBuildDate>Tue, 17 Nov 2020 18:35:00 -0500</lastBuildDate><atom:link href="http://toasters.rocks/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zarmina</title>
+      <link>http://toasters.rocks/tags/zarmina/</link>
+      <pubDate>Tue, 17 Nov 2020 18:35:00 -0500</pubDate>
+      
+      <guid>http://toasters.rocks/tags/zarmina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rant</title>
+      <link>http://toasters.rocks/tags/rant/</link>
+      <pubDate>Sat, 10 Oct 2020 21:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/rant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experiments</title>
+      <link>http://toasters.rocks/tags/experiments/</link>
+      <pubDate>Mon, 01 Jun 2020 20:13:04 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>http://toasters.rocks/tags/tech/</link>
+      <pubDate>Wed, 06 May 2020 03:30:29 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>http://toasters.rocks/tags/writing/</link>
+      <pubDate>Sun, 15 Dec 2019 00:55:25 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p5.js</title>
+      <link>http://toasters.rocks/tags/p5.js/</link>
+      <pubDate>Fri, 29 Nov 2019 02:47:27 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/p5.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>http://toasters.rocks/tags/meta/</link>
+      <pubDate>Mon, 25 Nov 2019 07:57:22 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random</title>
+      <link>http://toasters.rocks/tags/random/</link>
+      <pubDate>Tue, 02 Apr 2019 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/tags/random/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

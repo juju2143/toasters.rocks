@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on toasters rocks</title>
+    <link>http://toasters.rocks/tags/meta/</link>
+    <description>Recent content in Meta on toasters rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020 J.P. Savard</copyright>
+    <lastBuildDate>Mon, 25 Nov 2019 07:57:22 +0000</lastBuildDate><atom:link href="http://toasters.rocks/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New blog, again</title>
+      <link>http://toasters.rocks/new-blog-again/</link>
+      <pubDate>Mon, 25 Nov 2019 07:57:22 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/new-blog-again/</guid>
+      <description>Yeah, I complain a lot about the fact I don&amp;rsquo;t write on my blog. I moved it again, this time on Ghost, after I found out I had free web hosting and it could run Node.js apps on it, so let&amp;rsquo;s try this. It was a bitch to install, though, as if Murphy&amp;rsquo;s law was playing against me. If it has a chance to fail, then it will fail. It took like 3 days, but I hope it&amp;rsquo;s worth it.</description>
+    </item>
+    
+    <item>
+      <title>Toasters Rocks: The Reboot</title>
+      <link>http://toasters.rocks/toasters-rocks-the-reboot/</link>
+      <pubDate>Thu, 22 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/toasters-rocks-the-reboot/</guid>
+      <description>Yeah, let&amp;rsquo;s try this out, cause why not. It used to be Tumblr (which you can still follow here), but I recently switched to Write Freely, just to see how nicer it is. And looks like it works so far.
+A while ago I realized I followed way too much people and it distracts me a lot from writing long texts, that and there was way too much NSFW to go there at school, so I kinda stopped going there.</description>
+    </item>
+    
+  </channel>
+</rss>

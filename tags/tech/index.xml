@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on toasters rocks</title>
+    <link>http://toasters.rocks/tags/tech/</link>
+    <description>Recent content in Tech on toasters rocks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020 J.P. Savard</copyright>
+    <lastBuildDate>Wed, 06 May 2020 03:30:29 +0000</lastBuildDate><atom:link href="http://toasters.rocks/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pandemic Story</title>
+      <link>http://toasters.rocks/pandemic-story/</link>
+      <pubDate>Wed, 06 May 2020 03:30:29 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/pandemic-story/</guid>
+      <description>Here&amp;rsquo;s a bit of my life story. For starters, I&amp;rsquo;ve always had trouble finding a proper job, probably because I&amp;rsquo;m on the autism spectrum (of course, not something I&amp;rsquo;d like to explicitely tell everyone, for reasons), and/or I&amp;rsquo;ve had a very pelicular story on my resumé (in short, you know, the whole you need to have experience to have experience thing, the classic catch-22), I don&amp;rsquo;t know for sure. I&amp;rsquo;ve always worked freelance on some small projects with friends, friends of friends or for myself, comfortably at home, and I wanted to work in a big company that could provide me with a stable job and work in an office, for a change.</description>
+    </item>
+    
+    <item>
+      <title>My Arch Linux packages: how to create your own repo</title>
+      <link>http://toasters.rocks/arch-linux-packages/</link>
+      <pubDate>Sat, 22 Feb 2020 07:41:21 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/arch-linux-packages/</guid>
+      <description>As I use Arch Linux as my daily driver on my main machine now and I use a lot the AUR nowadays (most notably I maintain the packages for The 8-Bit Guy&amp;rsquo;s Commander X16), figured I might create my own repository, right?
+So there you go, after figuring it out on the Arch Wiki, here&amp;rsquo;s a collection of software I maintain on the AUR, some of my own things I bothered to make a PKGBUILD for, or just software not found in other binary repos I know the users of my communities will like.</description>
+    </item>
+    
+    <item>
+      <title>King James Bible: An Adventure in Compression</title>
+      <link>http://toasters.rocks/king-james-bible/</link>
+      <pubDate>Sat, 11 Jan 2020 00:38:16 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/king-james-bible/</guid>
+      <description>Well, time for another adventure, and with every adventure it begins with a very silly thought that isn&amp;rsquo;t even mine this time:
+&amp;ldquo;I wonder if one can fit the entire bible on a TI-Nspire CX with mViewer GX PDF converter&amp;rdquo;, says our friend DJ
+And there you go, am I searching for the answer:
+me: trying to find out how big the Bible is in terms of computer storage because someone asked on Discord</description>
+    </item>
+    
+    <item>
+      <title>Esoteric uses of CGI</title>
+      <link>http://toasters.rocks/esoteric-uses-of-cgi/</link>
+      <pubDate>Sat, 21 Dec 2019 04:41:19 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/esoteric-uses-of-cgi/</guid>
+      <description>Well, you probably all heard of esoteric programming languages before, but the question today is, programming languages used outside its intended use, would that be esoteric?
+If I tell you back-end web languages, you&amp;rsquo;d immediately think PHP, Node.js, Ruby, C maybe, but what if I tell you&amp;hellip; Commodore BASIC? Sure, just get a Commodore 64 with a TCP/IP stack and write a web server for it you&amp;rsquo;d say, but I mean, actually using it on an actual, everyday web server on some Linux box?</description>
+    </item>
+    
+    <item>
+      <title>How to thoroughly destroy spam accounts from Mastodon</title>
+      <link>http://toasters.rocks/how-to-thoroughly-destroy-spam-accounts-from-mastodon/</link>
+      <pubDate>Mon, 26 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/how-to-thoroughly-destroy-spam-accounts-from-mastodon/</guid>
+      <description>Well, it seems Mastodon have a problem with a particular spambot. As an instance admin, I investigated and here&amp;rsquo;s my findings.
+Symptoms: Accounts keep singing up on your instance. The username are all random syllables (kind of sounds like Japanese), they have random full English/American-sounding names, their email address are all from random domains as if their owner have a pretty big budget on that and they all have different IPs.</description>
+    </item>
+    
+    <item>
+      <title>Facebook sucks</title>
+      <link>http://toasters.rocks/facebook-sucks/</link>
+      <pubDate>Fri, 23 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/facebook-sucks/</guid>
+      <description>Well, I guess this thing will be a really nice place to vent. Because, allow me to say this, and I think everyone here will agree: Facebook sucks.
+I mean, if you ever need to talk to their tech support to either change the name of your page, there&amp;rsquo;s a problem with it, or you even just want access to their API to integrate with your website (all true stories), let me get this straight, it&amp;rsquo;s going to be a pain in the ass and take you months to get anywhere.</description>
+    </item>
+    
+    <item>
+      <title>How to tell your AdBlock users to disable it like a boss</title>
+      <link>http://toasters.rocks/how-to-tell-your-adblock-users-to-disable-it-like-a-boss/</link>
+      <pubDate>Sat, 28 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/how-to-tell-your-adblock-users-to-disable-it-like-a-boss/</guid>
+      <description>This article was originally published on Tumblr, reposting it here for completeness.
+Boy, I don’t use Tumblr very often nowadays. Well, I wanted to write this article because, first of all, I hate ads and I know everyone else hates ads, myself I have uBlock with the anti-AdBlock killer on, but I also know people depends on it to make some good internet money and they want to do everything so their users can see the ads, even going as far as blocking the site’s content unless AdBlock is disabled… I have reasons to believe you’d piss these users off instead.</description>
+    </item>
+    
+    <item>
+      <title>How to repost a video correctly on your social media page</title>
+      <link>http://toasters.rocks/how-to-repost-a-video-correctly-on-your-social-media-page/</link>
+      <pubDate>Sun, 07 Feb 2016 12:00:00 +0000</pubDate>
+      
+      <guid>http://toasters.rocks/how-to-repost-a-video-correctly-on-your-social-media-page/</guid>
+      <description>This article was originally published on Tumblr, reposting it here for completeness.
+Well, I usually don’t give a damn about this, but after seeing my good friend Minty Root allegedly being butthurt over this and seeing a GIF of his work being (re)posted on Facebook without credit, it stroke me, and I figured I had a good argument about this.
+For this post, I’ll use Minty as an example here, because I know how he’s set up on YouTube, but it works for most, if not all content creators out there.</description>
+    </item>
+    
+  </channel>
+</rss>

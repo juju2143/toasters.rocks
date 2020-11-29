@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/png">
+    <meta name="generator" content="Hugo 0.78.2" />
+    <meta property="og:title" content="Esoteric uses of CGI" />
+<meta property="og:description" content="Or how to program the back-end of your website using Commodore BASIC." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://toasters.rocks/esoteric-uses-of-cgi/" />
+<meta property="og:image" content="http://toasters.rocks/images/2019/12/photo-1461749280684-dccba630e2f6.jpg" />
+<meta property="article:published_time" content="2019-12-21T04:41:19+00:00" />
+<meta property="article:modified_time" content="2019-12-21T05:34:28+00:00" />
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://toasters.rocks/images/2019/12/photo-1461749280684-dccba630e2f6.jpg"/>
+
+<meta name="twitter:title" content="Esoteric uses of CGI"/>
+<meta name="twitter:description" content="Or how to program the back-end of your website using Commodore BASIC."/>
+
+    <title>Esoteric uses of CGI - toasters rocks</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/syntax.css" />
+    <script src="https://kit.fontawesome.com/8ced65a629.js" crossorigin="anonymous"></script>
+</head><body>
+        <header><img src="/img/icon.png"><h1>toasters rocks</h1></header>
+        <main>
+            <aside><nav>
+    
+    <a href="/">
+    
+    
+    <i class="fas fa-home"></i> 
+    
+    
+    Home
+    </a><br/>
+    
+    <a href="http://juju2143.ca/">
+    
+    
+    <i class="fas fa-user"></i> 
+    
+    
+    About
+    </a><br/>
+    
+    <a href="/fr/">
+    
+    
+    <i class="fas fa-globe"></i> 
+    
+    
+    Français
+    </a><br/>
+    
+    <a href="https://yukiis.moe/">
+    
+    
+    <i class="far fa-comment"></i> 
+    
+    
+    Comics
+    </a><br/>
+    
+    <a href="https://codewalr.us/">
+    
+    
+    <i class="far fa-folder-open"></i> 
+    
+    
+    Forums
+    </a><br/>
+    
+</nav>
+<br/>
+<nav>
+
+
+<a title="Twitter " href="https://twitter.com/juju2143">
+
+
+<i style="color: #4da7de" class="fab fa-twitter"></i> 
+
+<span style="color: #4da7de">Twitter</span> 
+</a><br/>
+
+
+<a title="Discord " href="https://discord.gg/cuZcfcF">
+
+
+<i style="color: #7289da" class="fab fa-discord"></i> 
+
+<span style="color: #7289da">Discord</span> 
+</a><br/>
+
+
+<a title="GitHub " href="https://github.com/juju2143">
+
+
+<i style="color: #221e1b" class="fab fa-github"></i> 
+
+<span style="color: #221e1b">GitHub</span> 
+</a><br/>
+
+
+<a title="Patreon " href="https://patreon.com/juju2143">
+
+
+<i style="color: #F96854" class="fab fa-patreon"></i> 
+
+<span style="color: #F96854">Patreon</span> 
+</a><br/>
+
+
+<a title="YouTube " href="https://youtube.com/user/julosoft">
+
+
+<i style="color: #e02a20" class="fab fa-youtube"></i> 
+
+<span style="color: #e02a20">YouTube</span> 
+</a><br/>
+
+
+<a title="YouTube 2 " href="https://youtube.com/c/juju2143">
+
+
+<i style="color: #e02a20" class="fab fa-youtube"></i> 
+
+<span style="color: #e02a20">YouTube 2</span> 
+</a><br/>
+
+
+<a title="Twitch " href="https://twitch.tv/juju2143">
+
+
+<i style="color: #6441a5" class="fab fa-twitch"></i> 
+
+<span style="color: #6441a5">Twitch</span> 
+</a><br/>
+
+
+<a title="Instagram " href="https://instagram.com/j.p.savard">
+
+
+<i style="color: #d6249f" class="fab fa-instagram"></i> 
+
+<span style="color: #d6249f">Instagram</span> 
+</a><br/>
+
+
+<a title="DeviantArt " href="https://deviantart.com/juju2143">
+
+
+<i style="color: #c5d200" class="fab fa-deviantart"></i> 
+
+<span style="color: #c5d200">DeviantArt</span> 
+</a><br/>
+
+
+<a title="SoundCloud " href="https://soundcloud.com/juju2143">
+
+
+<i style="color: #fe3801" class="fab fa-soundcloud"></i> 
+
+<span style="color: #fe3801">SoundCloud</span> 
+</a><br/>
+
+</nav></aside>
+
+
+
+
+<article style="background-image: url('/images/2019/12/photo-1461749280684-dccba630e2f6.jpg');">
+    <div class="metadata" style="height: calc((var(--height) - 2em) * 0.6675 - 3.5em)">
+
+
+    <h2 name="top">Esoteric uses of CGI</h2>
+    <p>Or how to program the back-end of your website using Commodore BASIC.</p>
+    
+    
+
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="2019-12-21">December 21, 2019</time><br/>
+
+
+<i class="fas fa-tags"></i>
+
+
+#<a class="btn btn-sm btn-outline-dark tag-btn" href="http://toasters.rocks/tags/tech">Tech</a>
+<br/>
+
+
+<i class="fas fa-hourglass"></i> ~5 minutes
+    
+    </div>
+    <p>Well, you probably all heard of <a href="https://esolangs.org/">esoteric programming languages</a> before, but the question today is, programming languages used outside its intended use, would that be esoteric?</p>
+<p>If I tell you back-end web languages, you&rsquo;d immediately think PHP, Node.js, Ruby, C maybe, but what if I tell you&hellip; Commodore BASIC? Sure, just get a Commodore 64 with a TCP/IP stack and write a web server for it you&rsquo;d say, but I mean, actually using it on an actual, everyday web server on some Linux box? It&rsquo;s clearly not made for that.</p>
+<p>Enter <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a>, which is a protocol that was basically made so your web server can run a Perl script that could do more than directly serving some static HTML file so your user could actually interact with your website. A standard setup would be PHP running as a FastCGI server on top of Nginx, that or running as a plugin on Apache. In the first case, PHP communicates with Nginx via a UNIX socket, the web server forwards a request, PHP processes it and sends it back, so it would be more efficient and not spawn a process every request, which might slow your site down if it&rsquo;s popular enough.</p>
+<h2 id="installation">Installation</h2>
+<p>We&rsquo;re going to use <a href="https://github.com/gnosek/fcgiwrap">fcgiwrap</a>, a little piece of software that plugs into Nginx just like PHP does, but it runs just about any software you can run on command line, be it a shell script, a program, or a script written using your favourite language interpreter. You just install it using your Linux distro&rsquo;s package manager, activate the socket with a <code>sudo systemctl start fcgiwrap.socket</code>, install it in your <code>nginx.conf</code> just like you did with PHP, that&rsquo;s it, just like in the good ol' days.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-nginx" data-lang="nginx"><span class="k">location</span> <span class="p">~</span><span class="sr">*</span> <span class="s">\.cgi</span> <span class="p">{</span>
+    <span class="kn">root</span>           <span class="s">/srv/http</span><span class="p">;</span>
+    <span class="kn">fastcgi_pass</span>   <span class="s">unix:/run/fcgiwrap.sock</span><span class="p">;</span>
+    <span class="kn">fastcgi_index</span>  <span class="s">index.cgi</span><span class="p">;</span>
+    <span class="kn">include</span>        <span class="s">fastcgi.conf</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Example nginx config block.</p>
+<p>So, as long as you have an interpreter, you can turn it into a web back-end server language, right? Theorically, yes. We&rsquo;ll take our good ol' Commodore 64 BASIC <a href="https://github.com/mist64/cbmbasic">that has been ported to C</a> so it could work on your modern computer as a case study.</p>
+<p>So basically, you need a console program that opens a file and interprets it:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ cat program.bas
+<span class="c1">#!/usr/bin/cbmbasic</span>
+<span class="m">10</span> PRINT<span class="s2">&#34;Hello, world!&#34;</span>
+$ chmod +x program.bas
+$ ./program.bas
+Hello, world!
+</code></pre></td></tr></table>
+</div>
+</div><p>Example console session.</p>
+<p>Mind the shebang (the <code>#!/usr/bin/cbmbasic</code> line), it basically turns <code>./program.bas</code> into the proper <code>cbmbasic program.bas</code>. You&rsquo;ll need to run <code>chmod +x</code> on it for it to work. It&rsquo;s going to be useful later as you have no way otherwise to tell your web server which interpreter you want to run that file with.</p>
+<p>So now you can dump in your web directory a file like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-basic" data-lang="basic"><span class="err">#</span><span class="o">!/</span><span class="vg">usr</span><span class="o">/</span><span class="vg">bin</span><span class="o">/</span><span class="vg">cbmbasic</span>
+<span class="nl">10</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="vg">HTTP</span><span class="o">/</span><span class="mf">1.1</span><span class="w"> </span><span class="il">200</span><span class="w"> </span><span class="vg">OK</span>
+<span class="nl">20</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="vg">Content</span><span class="o">-</span><span class="nl">Type:</span><span class="w"> </span><span class="vg">text</span><span class="o">/</span><span class="vg">html</span><span class="p">;</span><span class="vg">charset</span><span class="o">=</span><span class="vg">utf</span><span class="il">-8</span>
+<span class="nl">30</span><span class="w"> </span><span class="kr">PRINT</span>
+<span class="nl">40</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;</span><span class="vg">html</span><span class="o">&gt;&lt;</span><span class="vg">head</span><span class="o">&gt;&lt;</span><span class="vg">title</span><span class="o">&gt;</span><span class="vg">Hello</span><span class="o">&lt;/</span><span class="vg">title</span><span class="o">&gt;&lt;/</span><span class="vg">head</span><span class="o">&gt;&lt;</span><span class="vg">body</span><span class="o">&gt;</span>
+<span class="nl">50</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="vg">Hello</span><span class="p">,</span><span class="w"> </span><span class="vg">world!</span>
+<span class="nl">60</span><span class="w"> </span><span class="kr">PRINT</span><span class="s2">&#34;&lt;br/&gt;Time is: &#34;</span><span class="p">;</span>
+<span class="nl">70</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="vg">TI$</span>
+<span class="nl">1000</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;/</span><span class="vg">body</span><span class="o">&gt;&lt;/</span><span class="vg">html</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>index.cgi</p>
+<p>Navigate to it with your browser and sure enough, you have a nice &ldquo;Hello, world!&rdquo; with the current time. So it&rsquo;s really easy to code something to show up in your browser. But of course, this ain&rsquo;t PHP, you have to send the HTTP headers yourself (lines 10-30, anything followed by two newlines should be sufficient, but for best results you should send the HTTP code and the content type), but still, quite easy. But the question here is, how is it useful?</p>
+<h2 id="_post">$_POST</h2>
+<p>Obviously, you&rsquo;d need some kind of input, right? The HTTP protocol allows for GET and POST. POST allows you to send data in the body of the request, otherwise you can also get some data from the URL. In PHP that would be respectively the <code>$_POST</code> and <code>$_GET</code> arrays. But of course it won&rsquo;t automatically parse these, so let&rsquo;s do that.</p>
+<p>For POST data, it&rsquo;s just as easy as reading keyboard input, or STDIN, depending of how it works. If it&rsquo;s a GET request, then you should get nothing (or a 0xFF byte in case of BASIC), otherwise you&rsquo;d get the data your user sent in your POST form.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-basic" data-lang="basic"><span class="nl">100</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;</span><span class="vg">form</span><span class="w"> </span><span class="vg">method</span><span class="o">=</span><span class="vg">POST</span><span class="w"> </span><span class="vg">action</span><span class="o">=</span><span class="c1">&#39;&#39;&gt;</span>
+<span class="nl">110</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;</span><span class="vg">input</span><span class="w"> </span><span class="vg">name</span><span class="o">=</span><span class="c1">&#39;input&#39;&gt;&lt;/input&gt;</span>
+<span class="nl">120</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;</span><span class="vg">input</span><span class="w"> </span><span class="vg">type</span><span class="o">=</span><span class="vg">hidden</span><span class="w"> </span><span class="vg">name</span><span class="o">=</span><span class="c1">&#39;hidden&#39; value=&#39;value&#39;&gt;&lt;/input&gt;</span>
+<span class="nl">130</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;</span><span class="vg">button</span><span class="w"> </span><span class="vg">type</span><span class="o">=</span><span class="vg">submit</span><span class="o">&gt;</span><span class="vg">Submit</span><span class="o">&lt;/</span><span class="vg">button</span><span class="o">&gt;</span>
+<span class="nl">140</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;/</span><span class="vg">form</span><span class="o">&gt;&lt;</span><span class="vg">pre</span><span class="o">&gt;</span>
+
+<span class="nl">200</span><span class="w"> </span><span class="vg">B$</span><span class="o">=</span><span class="s2">&#34;&#34;</span>
+<span class="nl">210</span><span class="w"> </span><span class="kr">GET</span><span class="w"> </span><span class="vg">A$</span>
+<span class="nl">220</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="vg">A$</span><span class="o">=</span><span class="s2">&#34;&amp;&#34;</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">260</span>
+<span class="nl">230</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="kr">ASC</span><span class="p">(</span><span class="vg">A$</span><span class="p">)</span><span class="o">&gt;</span><span class="il">127</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">260</span>
+<span class="nl">240</span><span class="w"> </span><span class="vg">B$</span><span class="o">=</span><span class="vg">B$</span><span class="o">+</span><span class="vg">A$</span>
+<span class="nl">250</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">210</span>
+<span class="nl">260</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="vg">B$</span>
+<span class="nl">270</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="kr">ASC</span><span class="p">(</span><span class="vg">A$</span><span class="p">)</span><span class="o">&lt;</span><span class="il">128</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">200</span>
+<span class="nl">280</span><span class="w"> </span><span class="kr">PRINT</span><span class="err">&#34;</span><span class="o">&lt;/</span><span class="vg">pre</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Add this code to get and print POST variables. Good thing there&rsquo;s line numbers so I don&rsquo;t have to tell you where to add them.
+It&rsquo;s safe to assume anything over 127 is the end of input, as anything above that will be percent-encoded. In particular, in BASIC, you get 199 if you&rsquo;re past the end (EOF) and 255 if there&rsquo;s nothing. Parsing the resulting string is left as an exercise to the reader. And now if you send some data in the form you&rsquo;ll get:</p>
+<pre><code>    input=Something
+    hidden=value
+</code></pre><p>You can even use brainfuck or something similar:</p>
+<pre><code>100 PRINT&quot;&lt;form method=POST action='bf.cgi'&gt;
+</code></pre>
+<p>Replace line 100 from above&hellip;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bf" data-lang="bf"><span class="c">#!/usr/bin/bfi
+</span><span class="c"></span><span class="nb">-</span><span class="k">[</span><span class="nb">-------</span><span class="nv">&gt;</span><span class="nb">+</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-</span><span class="nt">.</span><span class="nv">&gt;</span><span class="nb">-</span><span class="k">[</span><span class="nb">---</span><span class="nv">&gt;</span><span class="nb">+</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-</span><span class="nt">..</span><span class="nb">----</span><span class="nt">.</span><span class="k">[</span><span class="nb">-</span><span class="nv">&gt;</span><span class="nb">+++++++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-</span><span class="nt">.</span><span class="nb">++</span><span class="nt">.</span><span class="nb">---</span><span class="nt">.</span><span class="nb">+++</span><span class="nt">.</span><span class="nb">-</span><span class="k">[</span><span class="nb">---</span><span class="nv">&gt;</span><span class="nb">++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nt">.</span><span class="k">[</span><span class="nb">--</span><span class="nv">&gt;</span><span class="nb">+++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">++</span><span class="nt">.</span><span class="nb">--</span><span class="nt">..</span><span class="k">[</span><span class="nb">---</span><span class="nv">&gt;</span><span class="nb">++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nt">.</span><span class="k">[</span><span class="nb">--</span><span class="nv">&gt;</span><span class="nb">+++++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-</span><span class="nt">.</span><span class="nb">----</span><span class="nt">.</span><span class="nv">&gt;</span><span class="nb">++++++++++</span><span class="nt">..,</span><span class="nb">+</span><span class="k">[</span><span class="nb">-</span><span class="nt">.,</span><span class="nb">+</span><span class="k">]</span><span class="c">
+</span></code></pre></td></tr></table>
+</div>
+</div><p>&hellip;and create bf.cgi</p>
+<h2 id="_server-_get-_cookies-etc">$_SERVER, $_GET, $_COOKIES, etc.</h2>
+<p>Now you&rsquo;ll want some of the sweet variables the server sends you that tells where the request came from and similar stuff, which is <code>$_SERVER</code> in PHP. If your language doesn&rsquo;t support environment variables from the OS, unfortunately (for brainfuck), you&rsquo;ll need to open files here. On Linux, it&rsquo;s <code>/proc/self/environ</code>, your mileage may vary on other OSes. It&rsquo;s mostly the same code, except the lines are separated by null bytes.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-basic" data-lang="basic"><span class="nl">300</span><span class="w"> </span><span class="kr">OPEN</span><span class="w"> </span><span class="il">1</span><span class="p">,</span><span class="w"> </span><span class="il">1</span><span class="p">,</span><span class="w"> </span><span class="il">0</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;/proc/self/environ&#34;</span>
+<span class="nl">310</span><span class="w"> </span><span class="vg">B$</span><span class="o">=</span><span class="s2">&#34;&#34;</span>
+<span class="nl">320</span><span class="w"> </span><span class="kr">GET</span><span class="err">#</span><span class="il">1</span><span class="p">,</span><span class="w"> </span><span class="vg">A$</span>
+<span class="nl">330</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="vg">A$</span><span class="o">=</span><span class="s2">&#34;&#34;</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">370</span>
+<span class="nl">340</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="kr">ASC</span><span class="p">(</span><span class="vg">A$</span><span class="p">)</span><span class="o">&gt;</span><span class="il">127</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">370</span>
+<span class="nl">350</span><span class="w"> </span><span class="vg">B$</span><span class="o">=</span><span class="vg">B$</span><span class="o">+</span><span class="vg">A$</span>
+<span class="nl">360</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">320</span>
+<span class="nl">370</span><span class="w"> </span><span class="kr">PRINT</span><span class="w"> </span><span class="vg">B$</span>
+<span class="nl">380</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="vg">A$</span><span class="o">=</span><span class="s2">&#34;&#34;</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">210</span>
+<span class="nl">390</span><span class="w"> </span><span class="kr">IF</span><span class="w"> </span><span class="kr">ASC</span><span class="p">(</span><span class="vg">A$</span><span class="p">)</span><span class="o">&lt;</span><span class="il">128</span><span class="w"> </span><span class="kr">GOTO</span><span class="w"> </span><span class="nl">310</span>
+<span class="nl">395</span><span class="w"> </span><span class="kr">CLOSE</span><span class="w"> </span><span class="il">1</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>You know what to do at this point.</p>
+<p>Again, parsing the results is left as an exercise to the reader. Notice that Commodore BASIC treats null bytes as an empty string here, which completely breaks the <code>ASC()</code> function and so should be handled separately.</p>
+<p>Interesting variables are <code>QUERY_STRING</code> (PHP&rsquo;s <code>$_GET</code>, parses just like we did with POST), <code>HTTP_COOKIE</code> (cookies are here), <code>REQUEST_METHOD</code> (GET or POST), <code>REMOTE_ADDR</code> (your user&rsquo;s IP), <code>REQUEST_SCHEME</code> (https?), you can find a lot of them <a href="https://www.php.net/manual/reserved.variables.server.php">just here</a> (at least those who aren&rsquo;t specific to PHP) or <a href="https://www.rfc-editor.org/rfc/rfc3875.html#section-4.1">here</a>.</p>
+<p>On that, that&rsquo;s it for today, hope you have fun with this! I wonder what kind of weird stuff you&rsquo;d make with this, please tell me if you code your website in an esoteric language :)</p>
+
+</article>
+
+<ul class="pagination">
+    
+    <li class="page-item">
+      <a class="previous" href="http://toasters.rocks/horse-life-98/">« Horse Life 98</a>
+    </li>
+    
+    
+    <li class="page-item">
+      <a class="next" href="http://toasters.rocks/miyuki-2019/">Miyuki 2019 »</a>
+    </li>
+    
+</ul>
+
+
+<article>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "juju2143" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+
+        </main>
+        <footer>Copyright © 2020 J.P. Savard</footer>
+    </body>
+</html>
