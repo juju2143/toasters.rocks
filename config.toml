@@ -177,13 +177,13 @@ paginate = 10
   url = "https://instagram.com/j.p.savard"
   post = "#d6249f"
   weight = 8
-[[languages.en.menu.social]]
+[[languages.fr.menu.social]]
   name = "DeviantArt"
   pre = "fab fa-deviantart"
   url = "https://deviantart.com/juju2143"
   post = "#c5d200"
   weight = 9
-[[languages.en.menu.social]]
+[[languages.fr.menu.social]]
   name = "SoundCloud"
   pre = "fab fa-soundcloud"
   url = "https://soundcloud.com/juju2143"
