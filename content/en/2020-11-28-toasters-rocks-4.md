@@ -61,3 +61,9 @@ Now you'll want to dump the resulting Markdown files in the content folder, the 
 ### Aftermath
 
 Now I need to fix the posts one by one, since the converter didn't do a very good job at converting stuff, in particular header images, embeds and tables, plus that script wasn't written specifically for Hugo, and there's a few bugs to squash here and there, but eh, since I don't have a ton of posts it's kinda doable. It's still gonna be wonky a bit at first but I hope you like it.
+
+### Update (2020-10-29)
+
+Okay, now the workflow is completely automated. I uploaded the source to GitHub (you can [look it up](https://github.com/juju2143/toasters.rocks) [if you want](https://github.com/juju2143/hugo-theme-toastersrocks), you can even use it for all I care but I pretty much made it for myself, so YMMV), then used GitHub Actions so it builds it and pushes the compiled, minified result to GitHub Pages automatically. It's pretty cool, really. So, since GitHub lets you edit files and commit directly from the website, I can actually use it as a CMS, which is perfect for my needs. And since it's just a bunch of HTML files and it's on a bunch of CDNs all around the world, this thing can't be faster. Almost.
+
+So, I hope you like it, I hope it works for you, and if you find any issues, feel free to complain about it in the comment section or [on GitHub](https://github.com/juju2143/hugo-theme-toastersrocks/issues).
