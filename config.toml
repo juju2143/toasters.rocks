@@ -84,7 +84,7 @@ paginate = 10
   name = "GitHub"
   pre = "fab fa-github"
   url = "https://github.com/juju2143"
-  post = "#221e1b"
+  post = "#fafafa"
   weight = 3
 [[languages.en.menu.social]]
   name = "Patreon"
@@ -145,7 +145,7 @@ paginate = 10
   name = "GitHub"
   pre = "fab fa-github"
   url = "https://github.com/juju2143"
-  post = "#221e1b"
+  post = "#fafafa"
   weight = 3
 [[languages.fr.menu.social]]
   name = "Patreon"
